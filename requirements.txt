@@ -1,0 +1,25 @@
+# ---- LangChain ecosystem (locked to 0.3 line) ----
+langchain==0.3.27
+langchain-core>=0.3.27,<1.0.0
+langchain-community==0.3.10
+langchain-openai==0.2.1
+langchain-anthropic==0.3.20
+langchain-cohere==0.3.0
+langchain-experimental==0.3.2
+langchain-text-splitters==0.3.9
+langchain-google-genai==2.1.12
+
+# ---- LangSmith (must satisfy community<0.2.0) ----
+langsmith==0.1.125
+
+# ---- Supporting libraries ----
+openai>=1.70.0,<2.0.0
+rich>=13.7.0,<14.0.0
+setuptools>=77.0.3,<80.0.0
+tokenizers>=0.21.1,<0.22.0
+transformers>=4.53.2,<4.54.0
+vllm==0.10.0
+
+# ---- Utilities ----
+nest_asyncio>=1.6.0
+python-dotenv>=1.0.1
